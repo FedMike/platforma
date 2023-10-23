@@ -740,9 +740,10 @@ button {
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1240px;
   max-height: 243px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 55px;
+  margin-right: 55px;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -791,7 +792,7 @@ button {
   border-radius: 15px;
   box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.2);
 }
-@media (max-width: 1320px) {
+@media (max-width: 1240px) {
   .benefits .benefits__bg {
     border-radius: 0;
   }
@@ -893,8 +894,21 @@ button {
 }
 @media (max-width: 1005px) {
   .steps .steps__items {
-    max-width: 610px;
-    justify-content: start;
+    max-width: 718px;
+  }
+  .steps .steps-item {
+    max-width: 226px;
+  }
+  .steps .steps-item__number {
+    font-size: 22px;
+  }
+  .steps .steps-item__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 797px) {
+  .steps .steps__items {
+    max-width: 472px;
   }
 }
 @media (max-width: 768px) {
@@ -905,14 +919,8 @@ button {
   .steps .title-2 {
     margin-bottom: 40px;
   }
-  .steps .steps-item__number {
-    font-size: 22px;
-  }
-  .steps .steps-item__text {
-    font-size: 14px;
-  }
 }
-@media (max-width: 660px) {
+@media (max-width: 521px) {
   .steps .steps__items {
     width: 100%;
     justify-content: start;
@@ -1083,6 +1091,20 @@ button {
 .application .application__form .form__group-select {
   max-width: 328px;
 }
+.application .application__form .form__group-select.active .select-arrow svg {
+  transform: rotate(180deg);
+}
+.application .application__form .form__group-select.active .form__select {
+  border-radius: 14px 14px 0 0;
+}
+.application .application__form .form__group-select.active .form__input-options {
+  display: block;
+}
+.application .application__form .form__group-select label {
+  position: relative;
+  display: block;
+  height: 100%;
+}
 .application .application__form .form__group-select .form__select {
   padding-right: 56px;
 }
@@ -1122,14 +1144,39 @@ button {
 }
 .application .application__form .select-arrow {
   position: absolute;
-  right: 14px;
-  top: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 32px;
-  height: 32px;
-  transform: translateY(-50%);
+  padding-right: 14px;
+}
+.application .application__form .form__input-options {
+  position: absolute;
+  top: 64px;
+  display: none;
+  width: 100%;
+  z-index: 5;
+  background-color: #F7F7F7;
+  border-radius: 0px 0px 14px 14px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.application .application__form .form__input-options.active {
+  display: block;
+}
+.application .application__form .option-item {
+  height: 48px;
+  padding: 12px 14px;
+  color: #232323;
+  cursor: pointer;
+}
+.application .application__form .option-item:hover {
+  color: #3068B0;
+}
+.application .application__form .option-item + .option-item {
+  border-top: 1px solid #4F4F4F;
 }
 .application .application__form .form__checkbox-real {
   width: 0;
