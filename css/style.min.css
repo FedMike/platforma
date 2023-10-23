@@ -888,13 +888,8 @@ button {
 }
 @media (max-width: 1320px) {
   .steps .steps__items {
-    max-width: 925px;
+    max-width: 964px;
     justify-content: start;
-  }
-}
-@media (max-width: 1005px) {
-  .steps .steps__items {
-    max-width: 718px;
   }
   .steps .steps-item {
     max-width: 226px;
@@ -904,11 +899,6 @@ button {
   }
   .steps .steps-item__text {
     font-size: 14px;
-  }
-}
-@media (max-width: 797px) {
-  .steps .steps__items {
-    max-width: 472px;
   }
 }
 @media (max-width: 768px) {
@@ -1089,7 +1079,7 @@ button {
   margin-bottom: 38px;
 }
 .application .application__form .form__group-select {
-  max-width: 328px;
+  max-width: 340px;
 }
 .application .application__form .form__group-select.active .select-arrow svg {
   transform: rotate(180deg);
@@ -1106,7 +1096,7 @@ button {
   height: 100%;
 }
 .application .application__form .form__group-select .form__select {
-  padding-right: 56px;
+  padding-right: 40px;
 }
 .application .application__form .form__group-checkbox {
   padding-left: 24px;
@@ -1134,12 +1124,22 @@ button {
   border: none;
   border-radius: 14px;
   background-color: #f7f7f7;
+  outline: none;
   caret-color: #648dc2;
 }
-.application .application__form .form__input::-webkit-input-placeholder, .application .application__form .form__input::-moz-placeholder {
-  color: #71717a;
+.application .application__form .form__input::-webkit-input-placeholder {
+  color: #71717A;
 }
-.application .application__form .form__input.error {
+.application .application__form .form__input::-moz-placeholder {
+  color: #71717A;
+}
+.application .application__form .form__input:invalid {
+  color: #f31260;
+}
+.application .application__form .form__input:invalid::-webkit-input-placeholder {
+  color: #f31260;
+}
+.application .application__form .form__input:invalid::-moz-placeholder {
   color: #f31260;
 }
 .application .application__form .select-arrow {
@@ -1176,7 +1176,7 @@ button {
   color: #3068B0;
 }
 .application .application__form .option-item + .option-item {
-  border-top: 1px solid #4F4F4F;
+  border-top: 1px solid rgba(79, 79, 79, 0.31);
 }
 .application .application__form .form__checkbox-real {
   width: 0;
@@ -1209,6 +1209,9 @@ button {
   background-color: #17c964;
   border-radius: 3px;
   transition: 0.1s ease-in;
+}
+.application .application__form .form__checkbox-real:invalid + .form__checkbox-custom {
+  border: 2px solid #F31260;
 }
 .application .application__form .form__checkbox-real:checked + .form__checkbox-custom {
   border: 2px solid #17c964;
