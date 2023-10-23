@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/libs/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <!-- Title -->
+    <title>Главная</title>
+    <!-- Favicon -->
+</head>
+
+
+<body>
+    <header class="header" id="header">
+    <div class="container">
+        <div class="header-left">
+            <a href="#!" class="logo">
+                <img src="./../img/logo.png" alt="Платформа" />
+            </a>
+            <div class="header-trophy">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M2.66667 12V10.6667H5.33333V8.6C4.78889 8.47778 4.30278 8.24722 3.875 7.90833C3.44722 7.56944 3.13333 7.14444 2.93333 6.63333C2.1 6.53333 1.40278 6.16944 0.841667 5.54167C0.280556 4.91389 0 4.17778 0 3.33333V2.66667C0 2.3 0.130556 1.98611 0.391667 1.725C0.652778 1.46389 0.966667 1.33333 1.33333 1.33333H2.66667V0H9.33333V1.33333H10.6667C11.0333 1.33333 11.3472 1.46389 11.6083 1.725C11.8694 1.98611 12 2.3 12 2.66667V3.33333C12 4.17778 11.7194 4.91389 11.1583 5.54167C10.5972 6.16944 9.9 6.53333 9.06667 6.63333C8.86667 7.14444 8.55278 7.56944 8.125 7.90833C7.69722 8.24722 7.21111 8.47778 6.66667 8.6V10.6667H9.33333V12H2.66667ZM2.66667 5.2V2.66667H1.33333V3.33333C1.33333 3.75556 1.45556 4.13611 1.7 4.475C1.94444 4.81389 2.26667 5.05556 2.66667 5.2ZM6 7.33333C6.55556 7.33333 7.02778 7.13889 7.41667 6.75C7.80556 6.36111 8 5.88889 8 5.33333V1.33333H4V5.33333C4 5.88889 4.19444 6.36111 4.58333 6.75C4.97222 7.13889 5.44444 7.33333 6 7.33333ZM9.33333 5.2C9.73333 5.05556 10.0556 4.81389 10.3 4.475C10.5444 4.13611 10.6667 3.75556 10.6667 3.33333V2.66667H9.33333V5.2Z"
+                        fill="#3068B0"
+                    />
+                </svg>
+                Сертифицированный партнер Битрикс24
+            </div>
+        </div>
+        <div class="header-mobile">
+            <button class="header-mobile__btn">
+                <span></span>
+            </button>
+        </div>
+        <div class="header-mobile__nav">
+            <ul>
+                <li>
+                    <a href="#!" class="header-menu__link">Решение</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Результаты</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Этапы</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Тарифы</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Решение</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Результаты</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Этапы</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Тарифы</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Решение</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Результаты</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Этапы</a>
+                </li>
+                <li>
+                    <a href="#!" class="header-menu__link">Тарифы</a>
+                </li>
+            </ul>
+            <div class="header-mobile__nav-btn">
+                <button class="btn">Оставить заявку</button>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="header-menu__nav">
+                <a href="#!" class="header-menu__link">Решение</a>
+                <a href="#!" class="header-menu__link">Результаты</a>
+                <a href="#!" class="header-menu__link">Этапы</a>
+                <a href="#!" class="header-menu__link">Тарифы</a>
+            </div>
+            <div class="header-menu__btn">
+                <button class="btn">Оставить заявку</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <section class="first-screen">
+        <div class="main-banner">
+            <img src="./img/main-banner.jpg" alt="Главный баннер" />
+        </div>
+        <div class="container">
+            <div class="first-screen__content">
+                <h1 class="title-1">Автоматизация бизнеса</h1>
+                <div class="first-screen__services">
+                    <div class="services__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#0ACF83" />
+                            <path
+                                d="M10.0124 17.25L5.73737 12.975L6.80612 11.9062L10.0124 15.1125L16.8936 8.2312L17.9624 9.29995L10.0124 17.25Z"
+                                fill="white" />
+                        </svg>
+                        <div class="services__item-text">CRM</div>
+                    </div>
+                    <div class="services__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#0ACF83" />
+                            <path
+                                d="M10.0124 17.25L5.73737 12.975L6.80612 11.9062L10.0124 15.1125L16.8936 8.2312L17.9624 9.29995L10.0124 17.25Z"
+                                fill="white" />
+                        </svg>
+                        <div class="services__item-text">Телефония</div>
+                    </div>
+                    <div class="services__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#0ACF83" />
+                            <path
+                                d="M10.0124 17.25L5.73737 12.975L6.80612 11.9062L10.0124 15.1125L16.8936 8.2312L17.9624 9.29995L10.0124 17.25Z"
+                                fill="white" />
+                        </svg>
+                        <div class="services__item-text">Интеграция 1С</div>
+                    </div>
+                    <div class="services__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="#0ACF83" />
+                            <path
+                                d="M10.0124 17.25L5.73737 12.975L6.80612 11.9062L10.0124 15.1125L16.8936 8.2312L17.9624 9.29995L10.0124 17.25Z"
+                                fill="white" />
+                        </svg>
+                        <div class="services__item-text">Синхронизация с WhatsApp</div>
+                    </div>
+                </div>
+                <div class="first-screen__text">
+                    <p>Создание и внедрение комплексных решений для повышения эффективности и улучшения качества работы
+                        компаний любого масштаба</p>
+                </div>
+            </div>
+            <button class="btn--round"><span>Оставить заявку</span></button>
+            <button class="btn btn--blue">Оставить заявку</button>
+        </div>
+    </section>
+
+    <section class="solution">
+        <div class="container">
+            <h2 class="title-2">Предлагаем решение</h2>
+            <div class="solution__content">
+                <div class="solution-item">
+                    <div class="solution-item__img">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_337_260)">
+                                <g filter="url(#filter0_d_337_260)">
+                                    <rect x="9" y="10" width="62" height="7" rx="2" stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M12 17H68V68C68 69.1046 67.1046 70 66 70H14C12.8954 70 12 69.1046 12 68V17Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M19 26C19 24.8954 19.8954 24 21 24H59C60.1046 24 61 24.8954 61 26V37C61 38.1046 60.1046 39 59 39H21C19.8954 39 19 38.1046 19 37V26Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M19 48C19 46.8954 19.8954 46 21 46H35C36.1046 46 37 46.8954 37 48V68C37 69.1046 36.1046 70 35 70H21C19.8954 70 19 69.1046 19 68V48Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M45 48C45 46.8954 45.8954 46 47 46H59C60.1046 46 61 46.8954 61 48V60C61 61.1046 60.1046 62 59 62H47C45.8954 62 45 61.1046 45 60V48Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                </g>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_337_260" x="1" y="6" width="78" height="76"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="3.5" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.388235 0 0 0 0 0.458824 0 0 0 0 0.486275 0 0 0 0.8 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_337_260" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_337_260"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_337_260">
+                                    <rect width="80" height="80" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="solution-item__text">Магазины</div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-item__img">
+                        <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_337_267)">
+                                <g filter="url(#filter0_d_337_267)">
+                                    <path
+                                        d="M8.5 37L39.8415 9.57619C40.2185 9.24629 40.7815 9.24629 41.1585 9.57619L72.5 37"
+                                        stroke="#FEFEFE" stroke-width="2.5" stroke-linecap="round" />
+                                    <path
+                                        d="M12.5 33.5211V69C12.5 69.5523 12.9477 70 13.5 70H67.5C68.0523 70 68.5 69.5523 68.5 69V33"
+                                        stroke="#FEFEFE" stroke-width="2.5" />
+                                    <path
+                                        d="M23.5 54C23.5 53.4477 23.9477 53 24.5 53H40.5V69H24.5C23.9477 69 23.5 68.5523 23.5 68V54Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M48.5 37C49.0523 37 49.5 37.4477 49.5 38V52H32.5V38C32.5 37.4477 32.9477 37 33.5 37H48.5Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M40.5 53H56.5C57.0523 53 57.5 53.4477 57.5 54V68C57.5 68.5523 57.0523 69 56.5 69H40.5V53Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path d="M43 40.5H47" stroke="#FEFEFE" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M32.5 57H36.5" stroke="#FEFEFE" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                    <path d="M50.5 57H54.5" stroke="#FEFEFE" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_337_267" x="0.25" y="5.07874" width="80.5" height="77.1713"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="3.5" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.388235 0 0 0 0 0.458824 0 0 0 0 0.486275 0 0 0 0.8 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_337_267" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_337_267"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_337_267">
+                                    <rect width="80" height="80" fill="white" transform="translate(0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="solution-item__text">Складская логистика</div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-item__img">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_336_214)">
+                                <g filter="url(#filter0_d_336_214)">
+                                    <rect x="9" y="9" width="62" height="62" rx="3" stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M61 31.5C61.5523 31.5 62 31.0523 62 30.5C62 29.9477 61.5523 29.5 61 29.5V31.5ZM44.4978 36.0665C44.5345 35.5155 44.1176 35.039 43.5665 35.0022C43.0155 34.9655 42.539 35.3824 42.5022 35.9335L44.4978 36.0665ZM41.5022 50.9335C41.4655 51.4845 41.8824 51.961 42.4335 51.9978C42.9845 52.0345 43.461 51.6176 43.4978 51.0665L41.5022 50.9335ZM34.9978 35.9335C34.961 35.3824 34.4845 34.9655 33.9335 35.0022C33.3824 35.039 32.9655 35.5155 33.0022 36.0665L34.9978 35.9335ZM34.0022 51.0665C34.039 51.6176 34.5155 52.0345 35.0665 51.9978C35.6176 51.961 36.0345 51.4845 35.9978 50.9335L34.0022 51.0665ZM25.25 43.5L24.2636 43.6644L25.25 43.5ZM54.299 31.2369L55.2638 31.5L54.299 31.2369ZM26.3607 50.1644L25.3743 50.3288L26.3607 50.1644ZM50.6393 50.1644L49.6529 50L50.6393 50.1644ZM24.1941 37.1644L23.2077 37.3288L24.1941 37.1644ZM9 17H71V15H9V17ZM25.1805 37H53V35H25.1805V37ZM49.6529 50H27.3471V52H49.6529V50ZM53.9648 36.2631L55.2638 31.5L53.3343 30.9738L52.0352 35.7369L53.9648 36.2631ZM55.2638 31.5H61V29.5H55.2638V31.5ZM42.5022 35.9335L41.5022 50.9335L43.4978 51.0665L44.4978 36.0665L42.5022 35.9335ZM33.0022 36.0665L34.0022 51.0665L35.9978 50.9335L34.9978 35.9335L33.0022 36.0665ZM27.3471 50L26.2364 43.3356L24.2636 43.6644L25.3743 50.3288L27.3471 50ZM26.2364 43.3356L25.1805 37L23.2077 37.3288L24.2636 43.6644L26.2364 43.3356ZM52.0136 35.8356L50.7636 43.3356L52.7364 43.6644L53.9864 36.1644L52.0136 35.8356ZM50.7636 43.3356L49.6529 50L51.6257 50.3288L52.7364 43.6644L50.7636 43.3356ZM51.75 42.5H25.25V44.5H51.75V42.5ZM55.2638 31.5V31.5V29.5C54.3619 29.5 53.5716 30.1036 53.3343 30.9738L55.2638 31.5ZM27.3471 50L25.3743 50.3288C25.5351 51.2932 26.3694 52 27.3471 52V50ZM49.6529 52C50.6306 52 51.4649 51.2932 51.6257 50.3288L49.6529 50V52ZM25.1805 35C23.9446 35 23.0045 36.1097 23.2077 37.3288L25.1805 37V35Z"
+                                        fill="#FEFEFE" />
+                                    <circle cx="28" cy="55" r="3.25" stroke="#FEFEFE" stroke-width="1.5" />
+                                    <circle cx="50" cy="55" r="3.25" stroke="#FEFEFE" stroke-width="1.5" />
+                                </g>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_336_214" x="1" y="5" width="78" height="78"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="3.5" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.388235 0 0 0 0 0.458824 0 0 0 0 0.486275 0 0 0 0.8 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_336_214" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_336_214"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_336_214">
+                                    <rect width="80" height="80" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="solution-item__text">E-commerce</div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-item__img">
+                        <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_337_453)">
+                                <g filter="url(#filter0_d_337_453)">
+                                    <path
+                                        d="M29 49C29 47.8954 29.8954 47 31 47H41C42.1046 47 43 47.8954 43 49V59C43 60.1046 42.1046 61 41 61H31C29.8954 61 29 60.1046 29 59V49Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M50 49C50 47.8954 50.8954 47 52 47H62C63.1046 47 64 47.8954 64 49V59C64 60.1046 63.1046 61 62 61H52C50.8954 61 50 60.1046 50 59V49Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M28 39L26.0604 8.93562C26.0264 8.40942 25.5897 8 25.0624 8H14.9165C14.3979 8 13.9654 8.39642 13.9203 8.91303L8.59489 69.913C8.54388 70.4974 9.0045 71 9.59111 71H21.5"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path
+                                        d="M33.0853 23.8723C33.1495 23.3735 33.5742 23 34.0771 23H40.9229C41.4258 23 41.8504 23.3735 41.9147 23.8723L43.7177 37.8723C43.7947 38.4703 43.3289 39 42.7259 39H32.2741C31.6711 39 31.2053 38.4703 31.2823 37.8723L33.0853 23.8723Z"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <path d="M26 17L14 17" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <rect x="21" y="39" width="51" height="32" rx="1" stroke="#FEFEFE"
+                                        stroke-width="2" />
+                                </g>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_337_453" x="0.590942" y="4" width="79.4091" height="79"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="3.5" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.388235 0 0 0 0 0.458824 0 0 0 0 0.486275 0 0 0 0.8 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_337_453" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_337_453"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_337_453">
+                                    <rect width="80" height="80" fill="white" transform="translate(0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="solution-item__text">Предприятия</div>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-item__img">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_337_393)">
+                                <g filter="url(#filter0_d_337_393)">
+                                    <path d="M8 70C58.4062 70 71.6693 70 72 70" stroke="#FEFEFE" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <path d="M19 15V18" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M19 48V51" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M19 59V62" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M19 26V29" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M19 37V40" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M31 48V51" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M31 59V62" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M31 15V18" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M43 15V18" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M43 26V29" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M31 26V29" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M31 37V40" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M53.5 39V43" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M53.5 49V53" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M53.5 59V63" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M44 39V43" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M44 49V53" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M44 59V63" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M63 39V43" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M63 49V53" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M63 59V63" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" />
+                                    <path
+                                        d="M52.5 34V12C52.5 10.3431 51.1569 9 49.5 9H13.5C11.8431 9 10.5 10.3431 10.5 12V67C10.5 68.6569 11.8431 70 13.5 70H39.6529"
+                                        stroke="#FEFEFE" stroke-width="2" />
+                                    <rect x="37" y="34" width="33" height="36" rx="2" stroke="#FEFEFE"
+                                        stroke-width="2" />
+                                </g>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_337_393" x="0" y="5" width="80" height="77"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="3.5" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.388235 0 0 0 0 0.458824 0 0 0 0 0.486275 0 0 0 0.8 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_337_393" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_337_393"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_337_393">
+                                    <rect width="80" height="80" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="solution-item__text">Учреждения</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__bg">
+                <img src="./img/benefits-bg.jpg" alt="Преимущества" />
+            </div>
+            <div class="benefits__content">
+                <div class="benefits__title">Экономия рабочего времени за счет оптимизации бизнес-процессов</div>
+                <div class="benefits__items">
+                    <div class="benefits__item">
+                        <p>Улучшение KPI и бизнес-процессов</p>
+                    </div>
+                    <div class="benefits__item">
+                        <p>Экономия управленческих ресурсов</p>
+                    </div>
+                    <div class="benefits__item">
+                        <p>Ускорение обработки заявок</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <h2 class="title-2">Этапы внедрения Битрикс24</h2>
+            <div class="steps__items">
+                <div class="steps-item">
+                    <div class="steps-item__number">01</div>
+                    <div class="steps-item__title">Анализ работы</div>
+                    <div class="steps-item__text">Изучаем ваш бизнес, строим логику внедрения исходя из ваших
+                        потребностей</div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">02</div>
+                    <div class="steps-item__title">Настройка портала</div>
+                    <div class="steps-item__text">Настраиваем основные инструменты для плодотворной работы</div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">03</div>
+                    <div class="steps-item__title">Подключение</div>
+                    <div class="steps-item__text">Подключаем Битрикс24 с другими программами</div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">04</div>
+                    <div class="steps-item__title">Обучение сотрудников</div>
+                    <div class="steps-item__text">Проводим обучение для ваших сотрудников</div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">05</div>
+                    <div class="steps-item__title">Написание инструкций</div>
+                    <div class="steps-item__text">Формируем инструкции и рекомендации по работе с Битрикс24</div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">06</div>
+                    <div class="steps-item__title">Запуск работы</div>
+                    <div class="steps-item__text">Запускаем работу по всем внедренным инструментам в назначенный день
+                    </div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">07</div>
+                    <div class="steps-item__title">Сопровождение</div>
+                    <div class="steps-item__text">Совершаем дополнительные настройки в течение месяца</div>
+                </div>
+                <div class="steps-item">
+                    <div class="steps-item__number">08</div>
+                    <div class="steps-item__title">Консультации</div>
+                    <div class="steps-item__text">Консультируем бесплатно по Битрикс24</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prices">
+        <div class="container">
+            <h2 class="title-2">Тарифы на внедрение</h2>
+        </div>
+        <div class="prices-cards swiper">
+            <div class="swiper-wrapper">
+                <div class="prices-card swiper-slide">
+                    <div class="prices-card__title">Внедрение отдела продаж</div>
+                    <div class="prices-card__subtitle">Для отделов продаж</div>
+                    <ul class="prices-card__list">
+                        <li class="prices-card__list-item">Создание 3 воронок в CRM</li>
+                        <li class="prices-card__list-item">Добавление до 5 уникальных роботов в воронки или задачи</li>
+                        <li class="prices-card__list-item">Одно групповое обучение</li>
+                        <li class="prices-card__list-item">Один месяц сопровождения (техподдержка, помощь в настройках)
+                        </li>
+                        <li class="prices-card__list-item">Бесплатные консультации</li>
+                        <li class="prices-card__list-item">Срок реализации — 1 месяц</li>
+                    </ul>
+                    <div class="prices-card__rate">100 000 ₽</div>
+                    <button class="btn btn--blue">Выбрать</button>
+                </div>
+                <div class="prices-card swiper-slide">
+                    <div class="prices-card__title">Автоматизация работы с проектами</div>
+                    <div class="prices-card__subtitle">Для введения проектов</div>
+                    <ul class="prices-card__list">
+                        <li class="prices-card__list-item"><b>Внедрение реального Проекта в Битрикс24</b></li>
+                        <li class="prices-card__list-item"><b>Создание 4 воронок в CRM</b></li>
+                        <li class="prices-card__list-item"><b>Написание регламентов и инструкций</b></li>
+                        <li class="prices-card__list-item">Добавление до 5 уникальных роботов в воронки или задачи</li>
+                        <li class="prices-card__list-item">Одно групповое обучение</li>
+                        <li class="prices-card__list-item">Один месяц сопровождения (техподдержка, помощь в настройках)
+                        </li>
+                        <li class="prices-card__list-item">Бесплатные консультации</li>
+                        <li class="prices-card__list-item">Срок реализации — 2 месяца</li>
+                    </ul>
+                    <div class="prices-card__rate">300 000 ₽</div>
+                    <button class="btn btn--blue">Выбрать</button>
+                </div>
+                <div class="prices-card swiper-slide">
+                    <div class="prices-card__title">Внедрение бизнеса</div>
+                    <div class="prices-card__subtitle">Для компаний</div>
+                    <ul class="prices-card__list">
+                        <li class="prices-card__list-item"><b>Внедрение реального Проекта в Битрикс24</b></li>
+                        <li class="prices-card__list-item"><b>Создание 7 воронок в CRM</b></li>
+                        <li class="prices-card__list-item"><b>Добавление до 10 уникальных роботов в воронки или
+                                задачи</b></li>
+                        <li class="prices-card__list-item"><b>Создание 3 Бизнес-Процессов в разделе Автоматизации</b>
+                        </li>
+                        <li class="prices-card__list-item"><b>Написание регламентов и инструкций</b></li>
+                        <li class="prices-card__list-item"><b>Два групповых обучения</b></li>
+                        <li class="prices-card__list-item">Один месяц сопровождения (техподдержка, помощь в настройках)
+                        </li>
+                        <li class="prices-card__list-item">Бесплатные консультации</li>
+                        <li class="prices-card__list-item">Срок реализации — 4 месяца</li>
+                    </ul>
+                    <div class="prices-card__rate">500 000 ₽</div>
+                    <button class="btn btn--blue">Выбрать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="application">
+        <div class="container">
+            <div class="application__wrapper">
+                <div class="application__content">
+                    <h2 class="title-2">Оставить заявку</h2>
+                    <div class="application__subtitle">Заполните форму и мы с вами свяжемся</div>
+                    <form class="application__form">
+                        <div class="form__group">
+                            <label>
+                                <span class="form__label">Имя</span>
+                                <input type="text" class="form__input" name="name"
+                                    placeholder="Введите ваше имя и фамилию" required />
+                            </label>
+                        </div>
+                        <div class="form__group">
+                            <label> <span class="form__label">Телефон</span> <input type="tel" class="form__input"
+                                    name="tel" placeholder="+7 *** *** ** **" required /> </label>
+                        </div>
+                        <div class="form__group">
+                            <label>
+                                <span class="form__label">Электронная почта</span>
+                                <input type="email" class="form__input" name="email" placeholder="name@example.net"
+                                    required />
+                            </label>
+                        </div>
+                        <div class="form__group">
+                            <label>
+                                <span class="form__label">Название компании</span>
+                                <input type="text" class="form__input" name="company" placeholder="Название компании"
+                                    required />
+                            </label>
+                        </div>
+                        <div class="form__group form__group-select">
+                            <label>
+                                <span class="form__label">Количество сотрудников</span>
+                                <span class="select-arrow">
+                                    <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 2L9 9L16 2" stroke="#3068B0" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                <input type="text" class="form__input form__select" name="workers"
+                                    placeholder="Выберите из списка" required />
+                            </label>
+                        </div>
+                        <div class="form__group form__group-select">
+                            <label>
+                                <span class="form__label">Тариф</span>
+                                <span class="select-arrow">
+                                    <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 2L9 9L16 2" stroke="#3068B0" stroke-width="2.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                <input type="text" class="form__input form__select" name="tariff"
+                                    placeholder="Выберите тариф из списка" required />
+                            </label>
+                        </div>
+                        <div class="form__group form__group-checkbox">
+                            <label>
+                                <input type="checkbox" class="form__checkbox-real" required />
+                                <span class="form__checkbox-custom"></span>
+                                Принимаю и даю согласие на <a href="#!" class="link">Обработку персональных данных</a> и
+                                соглашаюсь с условиями <a href="#!" class="link">Политики конфиденциальности</a>
+                            </label>
+                        </div>
+                        <button class="btn btn--blue">Отправить</button>
+                    </form>
+                </div>
+                <div class="application__img">
+                    <img src="./img/application-b24-img.png" alt="Bitrix24" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__copyright">&#169;2023 ООО “Платформа”</div>
+        <a href="#!" class="footer__link">
+            Перейти на сайт Платформа
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.16667 15.5C1.70833 15.5 1.31597 15.3368 0.989583 15.0104C0.663194 14.684 0.5 14.2917 0.5 13.8333V2.16667C0.5 1.70833 0.663194 1.31597 0.989583 0.989583C1.31597 0.663194 1.70833 0.5 2.16667 0.5H8V2.16667H2.16667V13.8333H13.8333V8H15.5V13.8333C15.5 14.2917 15.3368 14.684 15.0104 15.0104C14.684 15.3368 14.2917 15.5 13.8333 15.5H2.16667ZM6.08333 11.0833L4.91667 9.91667L12.6667 2.16667H9.66667V0.5H15.5V6.33333H13.8333V3.33333L6.08333 11.0833Z" fill="#4F4F4F" />
+            </svg>
+        </a>
+    </div>
+</footer>
+
+    <script src="./js/libs/swiper-bundle.min.js"></script>
+    <script src="./js/main.min.js"></script>
+</body>
+
+</html>
