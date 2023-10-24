@@ -346,8 +346,24 @@ button {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding-top: 12px;
   padding-bottom: 10px;
+  z-index: 5;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  z-index: -1;
 }
 .header .container {
   display: flex;
@@ -381,7 +397,7 @@ button {
 }
 .header .header-mobile {
   display: none;
-  z-index: 5;
+  z-index: 10;
 }
 .header .header-mobile__nav {
   position: absolute;
@@ -392,8 +408,8 @@ button {
   height: 100vh;
   padding: 80px 48px;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
-  z-index: 3;
+  backdrop-filter: blur(40px);
+  z-index: 6;
   transform: translateX(360px);
   transition: transform 0.2s ease-in;
   overflow: scroll;
@@ -507,7 +523,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 32px;
+  padding-top: 98px;
   padding-bottom: 60px;
 }
 .first-screen .container {
@@ -581,7 +597,6 @@ button {
 }
 @media (max-width: 768px) {
   .first-screen {
-    padding-top: 32px;
     padding-bottom: 50px;
   }
   .first-screen .main-banner {
@@ -623,7 +638,7 @@ button {
 }
 @media (max-width: 360px) {
   .first-screen {
-    padding-top: 18px;
+    padding-top: 84px;
   }
   .first-screen .first-screen__services {
     column-gap: 16px;
