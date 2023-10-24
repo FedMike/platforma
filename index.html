@@ -507,22 +507,23 @@
                 <div class="application__content">
                     <h2 class="title-2">Оставить заявку</h2>
                     <div class="application__subtitle">Заполните форму и мы с вами свяжемся</div>
-                    <form class="application__form">
+                    <form id="requestForm" class="application__form">
                         <div class="form__group">
                             <label>
                                 <span class="form__label">Имя</span>
-                                <input type="text" class="form__input" name="name"
-                                    placeholder="Введите ваше имя и фамилию" required />
+                                <input id="name" type="text" class="form__input" name="name"
+                                    placeholder="Введите ваше имя и фамилию" />
                             </label>
                         </div>
                         <div class="form__group">
-                            <label> <span class="form__label">Телефон</span> <input type="tel" class="form__input"
-                                    name="tel" placeholder="+7 (***) *** ** **" required /> </label>
+                            <label> <span class="form__label">Телефон</span> <input id="tel" type="tel"
+                                    class="form__input" name="tel" placeholder="+7 (***) *** ** **" /> </label>
                         </div>
                         <div class="form__group">
                             <label>
                                 <span class="form__label">Электронная почта</span>
-                                <input type="email" class="form__input" name="email" placeholder="name@example.net" />
+                                <input id="email" type="email" class="form__input" name="email"
+                                    placeholder="name@example.net" />
                             </label>
                         </div>
                         <div class="form__group">
@@ -573,7 +574,8 @@
                         </div>
                         <div class="form__group form__group-checkbox">
                             <label>
-                                <input type="checkbox" class="form__checkbox-real" required />
+                                <input id="formAgreement" type="checkbox" class="form__checkbox-real"
+                                    name="formAgreement" />
                                 <span class="form__checkbox-custom"></span>
                                 Принимаю и даю согласие на <a href="#!" class="link">Обработку персональных данных</a> и
                                 соглашаюсь с условиями <a href="#!" class="link">Политики конфиденциальности</a>
